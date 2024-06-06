@@ -31,7 +31,7 @@ const BooksPage = () =>{
                 mb ={'30px'} >
                   
                     
-                <Flex justify ="center" align = 'center' width ='650px' height ='50px' boxShadow={'0px 0px 15px 10px  rgb(225, 185, 133) '}><Text fontSize='25px'  >Самые популярные книги разных жанров у нас</Text></Flex>
+                <Flex justify ="center" align = 'center' width ='60%' height ='50px'><Text fontSize='33px' >Самые популярные книги разных жанров у нас</Text></Flex>
 
 
 

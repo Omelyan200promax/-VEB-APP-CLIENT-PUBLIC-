@@ -28,7 +28,10 @@ const ToTopButton =()=> {
         {isScrolled &&(
         <>
             <Box
-                mt={'90vh'}
+                bottom ={0}
+                mb = {'30px'}
+                
+                
                 className='toTop-btn' 
                 onClick={()=>{
                     window.scrollTo({

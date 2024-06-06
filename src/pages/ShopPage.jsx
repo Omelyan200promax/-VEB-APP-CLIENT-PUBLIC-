@@ -17,6 +17,7 @@ import CardItem11 from '../components/CardItem11';
 import CardItem12 from '../components/CardItem12';
 import CardItem13 from '../components/CardItem13';
 import CardItem14 from '../components/CardItem14';
+import ToTopButton from '../components/ToTopButton';
 
 import { Flex } from '@chakra-ui/react';
 const ShopPage = () =>{
@@ -44,10 +45,10 @@ const ShopPage = () =>{
             // mt ={'50px'}
             justify={'center'}
             width={'100%'}
-            flexWrap={'wrap'}
+            // flexWrap={'wrap'}
             id = "shop"
             ml = {'10px'}
-            mb = {'60px'}
+            // mb = {'60px'}
             
         >
         
@@ -82,10 +83,12 @@ const ShopPage = () =>{
 
                 
             </Flex>
+            {/* <Flex >< ToTopButton/> </Flex> */}
 
             
            
         </Flex>
+        
     //     )}
     // </>
 

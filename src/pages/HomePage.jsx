@@ -15,6 +15,7 @@ import {Context} from '../index';
 import {useContext} from 'react';
 
 
+
 const HomePage =()=>{
     const {store} = useContext(Context);
     const [isLoading, setIsLoading] = useState(true);
@@ -44,22 +45,22 @@ const HomePage =()=>{
                     
                    
                     src ={osnova}
-                    width ={'50%'}
-                    height={'50%'}
+                    width ={'60%'}
+                    height={'55%'}
                 ></Image>
-                <Flex justify ={'center'} align = {'center'} width = {'280px'} height = {'240px'}  ml ={'20%'}   boxShadow={'0px 0px 15px 10px  rgb(225, 185, 133) '}><Text align ='center   'fontSize ='25px' as ='b' >Более 2000 книг на любой вкус и цвет 📚<br/> <br/>Выгодные акции еженедельно 💯 </Text></Flex>
+                <Flex justify ={'center'} align = {'center'} width = {'18.5%'} height = {'240px'}  ml ={'10.75%'}   boxShadow={'0px 0px 15px 10px  rgb(225, 185, 133) '}><Text align ='center   'fontSize ='25px' as ='b' >Более 2000 книг на любой вкус и цвет 📚<br/> <br/>Выгодные акции еженедельно 💯 </Text></Flex>
                 </Flex>
               
                
 
                 <Flex mt = {'20vh'} justify ={'space-between'} align = {'center'} >
-                    <Flex ml = {'5%'}  width = {'300px'} height = {'250px'} align = {'center'}   boxShadow={'0px 0px 15px 10px  rgb(225, 185, 133)'} justify = {'right'} ><Text  fontSize ='25px' as ='b' align ='center'>Книги любых жанров. Учебные пособия для всех возрастов. Редкие экземпляры. Найдите то, что нужно вам!  </Text></Flex>
+                    <Flex ml = {'5%'}  width = {'20%'} height = {'250px'} align = {'center'}   boxShadow={'0px 0px 15px 10px  rgb(225, 185, 133)'} justify = {'right'} ><Text  fontSize ='25px' as ='b' align ='center'>Книги любых жанров. Учебные пособия для всех возрастов. Редкие экземпляры. Найдите то, что нужно вам!  </Text></Flex>
                     
                     <Image
                      
                     src ={books}
-                    width ={'75%'}
-                    height={'60%'}
+                    width ={'70%'}
+                    height={'55%'}
                 ></Image>
 
                 
@@ -75,31 +76,33 @@ const HomePage =()=>{
                    
                   
                     src ={books2}
-                    width ={'55%'}
-                    height={'50%'}
+                    width ={'60%'}
+                    height={'45%'}
                 ></Image>
-                <Flex justify = {'center'} width = {'320px'} height = {'120px'} align = {'center'}  ml = {'15%'}  boxShadow={'0px 0px 15px 10px  rgb(225, 185, 133)'}><Text align ='center'  fontSize ='25px' as ='b'>Наш адрес:<br/> ул. Советская 54, г. Брест </Text></Flex>
+                <Flex justify = {'center'} width = {'21.3%'} height = {'120px'} align = {'center'}  ml = {'9.35%'}  boxShadow={'0px 0px 15px 10px  rgb(225, 185, 133)'}><Text align ='center'  fontSize ='25px' as ='b'>Наш адрес:<br/> ул. Советская 54, г. Брест </Text></Flex>
                 </Flex>
 
 
                 <Flex   mt = {'20vh'}  align = {'center'} justify ={'space-between'}> 
-                    <Flex justify = {'right'} height = {'150px'} width = {'350px'} align = {'center'} ml = {'3%'}    boxShadow={'0px 0px 15px 10px  rgb(225, 185, 133)'}><Text align ='center' fontSize ='24px' as ='b' >Заглядывай в "Книжного Червя" почаще и проводи время с пользой ! 😉 </Text></Flex> 
+                    <Flex justify = {'right'} height = {'150px'} width = {'23.3%'} align = {'center'} ml = {'4.35%'}    boxShadow={'0px 0px 15px 10px  rgb(225, 185, 133)'}><Text align ='center' fontSize ='24px' as ='b' >Заглядывай в "Книжного Червя" почаще и проводи время с пользой ! 😉 </Text></Flex> 
 
                     <Image
                     
                         src ={books3}
-                        width ={'75%'}
-                        height={'60%'}
+                        width ={'68%'}
+                        height={'55%'}
                     ></Image>
                                 </Flex>
                 
-                <Flex 
+                {/* <Flex 
                 bottom={0}
                 >
                          < ToTopButton/> 
                     
                     <Footer />
-                </Flex>
+                </Flex> */}
+                <Footer/>
+                <ToTopButton/>
 
             </>
    

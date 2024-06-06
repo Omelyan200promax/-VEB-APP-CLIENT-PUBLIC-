@@ -12,6 +12,7 @@
 
 }
 .toTop-btn{
+  
     box-shadow : 1px 1px 40px rgb(182, 179, 187);
     /* opacity: 1;
     bottom: 0;
@@ -110,6 +111,6 @@ body{
     }
   }
 
-.Flex{
-  color: rgb(179, 89, 47)
-}
+/* .Flex{
+  color: rgb(139, 99, 48)
+} */
